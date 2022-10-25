@@ -1809,6 +1809,112 @@ input, select, textarea {
 		header br {
 			display: none;
 		}
+		
+.csharp {
+   width: 80%;
+   -moz-animation: csharp 2s ease;
+   -webkit-animation: csharp 2s ease;
+}
+.python {
+   width: 75%;
+   -moz-animation: python 2s ease;
+   -webkit-animation: python 2s ease;
+}
+.javascript {
+   width: 40%;
+   -moz-animation: python 2s ease;
+   -webkit-animation: python 2s ease;
+}
+.Sql {
+   width: 35%;
+   -moz-animation: ruby 2s ease;
+   -webkit-animation: ruby 2s ease;
+}
+.ruby {
+   width: 20%;
+   -moz-animation: ruby 2s ease;
+   -webkit-animation: ruby 2s ease;
+}
+.php {
+   width: 20%;
+   -moz-animation: php 2s ease;
+   -webkit-animation: php 2s ease;
+}
+.html {
+   width: 20%;
+   -moz-animation: python 2s ease;
+   -webkit-animation: python 2s ease;
+}
+.css {
+   width: 20%;
+   -moz-animation: python 2s ease;
+   -webkit-animation: python 2s ease;
+
+}
+.swift {
+   width: 10%;
+   -moz-animation: swift 2s ease;
+   -webkit-animation: swift 2s ease;
+}
+
+
+@-moz-keyframes csharp {
+   0%   { width: 0px;  }
+   100% { width: 80%;  }
+}
+@-moz-keyframes python {
+   0%   { width: 0px;  }
+   100% { width: 75%;  }
+}
+@-moz-keyframes javascript {
+   0%   { width: 0px;  }
+   100% { width: 60%;  }
+}
+@-moz-keyframes ruby {
+   0%   { width: 0px;  }
+   100% { width: 50%;  }
+}
+@-moz-keyframes csharp {
+   0%   { width: 0px;  }
+   100% { width: 80%;  }
+}
+@-moz-keyframes csharp {
+   0%   { width: 0px;  }
+   100% { width: 80%;  }
+}
+@-moz-keyframes swift {
+   0%   { width: 0px;  }
+   100% { width: 50%;  }
+}
+
+@-webkit-keyframes csharp {
+   0%   { width: 0px;  }
+   100% { width: 80%;  }
+}
+@-webkit-keyframes python {
+   0%   { width: 0px;  }
+   100% { width: 75%;  }
+}
+@-webkit-keyframes javascript {
+   0%   { width: 0px;  }
+   100% { width: 60%;  }
+}
+@-webkit-keyframes ruby {
+   0%   { width: 0px;  }
+   100% { width: 50%;  }
+}
+@-moz-keyframes csharp {
+   0%   { width: 0px;  }
+   100% { width: 80%;  }
+}
+@-moz-keyframes csharp {
+   0%   { width: 0px;  }
+   100% { width: 80%;  }
+}
+@-webkit-keyframes swift {
+   0%   { width: 0px;  }
+   100% { width: 50%;  }
+}
 
 	}
 
@@ -2817,7 +2923,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #21b2a6;
+			background-color: #181919;
 			color: #c8ece9;
 		}
 
